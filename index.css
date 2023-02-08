@@ -1,7 +1,4 @@
-body{
-    background: #;
-}
-
+/* first container */
 .slider {
     width: 100%;
     max-width: 100%;
@@ -49,6 +46,50 @@ body{
 .btn-next {
     bottom:5%;
     right: 40%;
+}
+/* first container end */
+
+/* Secound container start */
+
+.over-box{
+    width:11%;
+}
+.container-row-2{
+    margin-top:10%;
+}
+
+.box-img-over-1{
+    transform: translate(50%,-120%);
+}
+.box-img-over-2{
+    transform: translate(200%,-300%);
+}
+.box-img-over-3{
+    transform: translate(395%,-200%);
+}
+.box-img-over-4 {
+    transform: translate(550%,-345%);
+}
+.box-img-over-5{
+    transform: translate(750%,-320%);
+}
+
+@media screen and (max-width:480px) {
+    .box-img-over-1{
+        transform: translate(40%,-130%);
+    }
+    .box-img-over-2{
+        transform: translate(180%,-300%);
+    }
+    .box-img-over-3{
+        transform: translate(360%,-190%);
+    }
+    .box-img-over-4 {
+        transform: translate(515%,-340%);
+    }
+    .box-img-over-5{
+        transform: translate(680%,-300%);
+    } 
 }
 
 @media screen and (max-width: 480px) {
