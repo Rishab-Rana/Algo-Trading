@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind StyleSheet CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="index.css"> <!-- index StyleSheet included -->
 </head>
@@ -13,15 +16,15 @@
 <body>
 
     <!-- navigation bar section start -->
-    <div class="nav flex p-5 bg-indigo-500 justify-around text-white">
+    <div class="nav flex p-5 bg-transparent justify-around text-white">
         <!-- menu logo -->
-        <div class="nav-logo">
-            <img src="#" alt="" srcset="">
-            <h1>Algo Trading Wala</h1>
+        <div class="nav-logo flex items-center">
+            <img src="Assests/company-logo.png" alt="" class="w-32">
+            <h1 class="text-2xl font-bold">Algo Trading Wala</h1>
         </div>
         <!-- menu list -->
         <div class="nav-menu max-lg:hidden">
-            <ul class="flex">
+            <ul class="flex items-center text-2xl font-bold">
                 <li class="mx-5">Marketplace</li>
                 <li class="mx-5">Feature</li>
                 <li class="mx-5">Ecosystem</li>
@@ -30,7 +33,7 @@
             </ul>
         </div>
         <!-- menu sign in and log in button -->
-        <div class="nav-auth max-lg:hidden flex">
+        <div class="nav-auth max-lg:hidden flex items-center text-2xl font-bold">
             <div class="nav-btn-signIn mx-2">SIGN IN</div>
             <div class="nav-btn-login">LOGIN</div>
         </div>
@@ -38,45 +41,45 @@
     <!-- navigation bar section ends -->
 
     <!-- banner Conainer section starts -->
-    <div class="container-banner flex">
+    <div class="container-banner flex m-5">
         <!-- Corosal first banner -->
         <div class="corosal slider">
             <!-- first corsal slide -->
-            <div class="corosal-first-section flex bg-red-200 slide flex max-lg:flex-col-reverse">
+            <div class="corosal-first-section flex slide flex max-lg:flex-col-reverse">
                 <div class="corosal-first-section-text m-auto">
-                    <h1>Start Algo Trading with Profitable Strategies</h1>
+                    <h1 class="font-black text-6xl leading-loose antialiased text-start max-lg:text-3xl">Start Algo Trading <br>with Profitable Strategies</h1>
                     <p>Quickly - Optimally - In One Call</p>
                     <div class="container-banner-btn">Get Started</div>
                 </div>
                 <div class="corosal-first-section-banner">
-                    <img src="Assests/Banner Image/banner-carosal-1.png">
+                    <img class="" src="Assests/Banner/banner-carosal-1.png">
                 </div>
             </div>
             <!-- secound corosal slide -->
-            <div class="corosal-Secound-section flex bg-green-200 slide lex max-lg:flex-col-reverse">
+            <div class="corosal-Secound-section flex slide lex max-lg:flex-col-reverse">
                 <div class="corosal-Secound-section-text m-auto">
-                    <h1>The Most dependable and fastest way to start Algo trading</h1>
+                    <h1 class="font-bold text-3xl leading-loose antialiased text-start">The Most dependable and fastest way to start Algo trading</h1>
                     <p>Quickly - Optimally - In One Call</p>
                     <div class="container-banner-btn">Get Started</div>
                 </div>
                 <div class="corosal-Secound-section-banner">
-                    <img src="Assests/Banner Image/banner-carosal-3.png" alt="">
+                    <img src="Assests/Banner/banner-carosal-3.png" alt="">
                 </div>
             </div>
             <!-- third corosal slide -->
-            <div class="corosal-third-section flex bg-blue-200 slide lex max-lg:flex-col-reverse">
+            <div class="corosal-third-section flex slide lex max-lg:flex-col-reverse">
                 <div class="corosal-third-section-text m-auto">
-                    <h1>Start Algo Trading with Profitable Strategies</h1>
+                    <h1 class="font-bold text-3xl leading-loose antialiased text-start">Start Algo Trading with Profitable Strategies</h1>
                     <p>Quickly - Optimally - In One Call</p>
                     <div class="container-banner-btn">Get Started</div>
                 </div>
                 <div class="corosal-third-section-banner">
-                    <img src="Assests/Banner Image/banner-carosal-3.png" alt="">
+                    <img src="Assests/Banner/banner-carosal-3.png" alt="">
                 </div>
             </div>
             <!-- Control buttons -->
-            <button class="btn btn-next">></button>
-            <button class="btn btn-prev">
+            <button class="btn btn-next text-black text-3xl font-black">></button>
+            <button class="btn btn-prev text-black text-3xl font-black">
                 < </button>
         </div>
     </div>
@@ -88,7 +91,7 @@
     <div class="secound-section p-5">
         <div class="container-secound-row-1 flex max-lg:flex-col">
             <div class="secound-section-col-1 max-w-lg m-auto">
-                <h1 class="text-center">Simple Connect Your Trading With Powerful Algorithms</h1>
+                <h1 class="text-center font-bold text-3xl leading-loose antialiased text-start">Simple Connect Your Trading <br> With Powerful Algorithms</h1>
                 <img src="Assests/Secound-container/6055209-201-converted-1@2x.png" alt=""
                     class="max-lg:max-w-xs max-lg:py-5 max-lg:m-auto">
             </div>
@@ -143,7 +146,6 @@
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
             Maxime quam at non ut obcaecati dignissimos aliquam ullam est delectus soluta atque corrupti, 
             tenetur odio odit asperiores et, modi aperiam perspiciatis?</p>
-
     </div>
     <script src="index.js"></script>
 </body>
