@@ -33,18 +33,15 @@ body{
     height: 80%;
     object-fit: cover;
     z-index: 199;
+ 
 }
 
 .btn {
     position: absolute;
-    width: 40px;
-    height: 40px;
-    padding: 10px;
-    border-radius: 50%;
+    width: 100px;
+    height: 100px;
     z-index: 10px;
-    cursor: pointer;
-    color: #fff;
-    font-size: 18px;
+    cursor: pointer;    
 }
 
 .btn:active {
@@ -52,14 +49,18 @@ body{
 }
 
 .btn-prev {
-    bottom:5%;
+    rotate: 180deg;
+    bottom: 1.5%;
     left: 40%;
 }
 
 .btn-next {
-    bottom:5%;
-    right: 40%;
+   bottom: 0%;
+   right: 40%;
 }
+
+
+
 /* first container end */
 
 /* Secound container start */
@@ -115,12 +116,12 @@ body{
     }
 
     .btn-prev {
-        bottom:2%;
-        left: 30%;
+        bottom:16%;
+        left: 20%;
     }
     
     .btn-next {
-        bottom:2%;
-        right: 30%;
+        bottom:15%;
+        right: 20%;
     }
 }

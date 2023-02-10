@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind StyleSheet CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="index.css"> <!-- index StyleSheet included -->
 </head>
@@ -34,7 +34,7 @@
         </div>
         <!-- menu sign in and log in button -->
         <div class="nav-auth max-lg:hidden flex items-center text-2xl font-bold">
-            <div class="nav-btn-signIn mx-2" >SIGN IN</div>
+            <div class="nav-btn-signIn mx-2">SIGN IN</div>
             <div class="nav-btn-login p-2 rounded-lg" style="background-color: #A029A3;">LOGIN</div>
         </div>
     </div>
@@ -43,13 +43,16 @@
     <!-- banner Conainer section starts -->
     <div class="container-banner flex m-5">
         <!-- Corosal first banner -->
-        <div class="corosal slider">
+        <div class="corosal slider my-5">
             <!-- first corsal slide -->
             <div class="corosal-first-section flex slide flex max-lg:flex-col-reverse">
                 <div class="corosal-first-section-text m-auto">
-                    <h1 class="font-black text-6xl leading-loose antialiased text-start max-lg:text-3xl">Start Algo Trading <br>with Profitable Strategies</h1>
+                    <h1
+                        class="font-black text-6xl leading-loose antialiased text-start max-lg:text-3xl max-lg:text-center">
+                        Start Algo Trading <br>with Profitable Strategies</h1>
                     <p>Quickly - Optimally - In One Call</p>
-                    <div class="container-banner-btn p-2 rounded-lg max-w-fit" style="background-color: #A029A3;">Get Started</div>
+                    <div class="container-banner-btn p-2 my-5 rounded-lg max-w-fit max-lg:m-auto"
+                        style="background-color: #A029A3;">Get Started</div>
                 </div>
                 <div class="corosal-first-section-banner">
                     <img class="m-auto" src="Assests/Banner/banner-carosal-1.png">
@@ -58,29 +61,33 @@
             <!-- secound corosal slide -->
             <div class="corosal-Secound-section flex slide lex max-lg:flex-col-reverse">
                 <div class="corosal-Secound-section-text m-auto">
-                    <h1 class="font-bold text-3xl leading-loose antialiased text-start">The Most dependable and fastest way to start Algo trading</h1>
+                    <h1 class="font-bold text-3xl leading-loose antialiased text-start">The Most dependable and fastest
+                        way to start Algo trading</h1>
                     <p>Quickly - Optimally - In One Call</p>
-                    <div class="container-banner-btn p-2 rounded-lg max-w-fit" style="background-color: #A029A3;">Get Started</div>
+                    <div class="container-banner-btn p-2 rounded-lg max-w-fit" style="background-color: #A029A3;">Get
+                        Started</div>
                 </div>
                 <div class="corosal-Secound-section-banner">
                     <img class="m-auto" src="Assests/Banner/banner-carosal-3.png" alt="">
                 </div>
             </div>
             <!-- third corosal slide -->
-            <div class="corosal-third-section flex slide lex max-lg:flex-col-reverse">
+            <div class="corosal-third-section flex slide lex max-lg:flex-col-reverse mb-5">
                 <div class="corosal-third-section-text m-auto">
-                    <h1 class="font-bold text-3xl leading-loose antialiased text-start">Start Algo Trading with Profitable Strategies</h1>
+                    <h1 class="font-bold text-3xl leading-loose antialiased text-start">Start Algo Trading with
+                        Profitable Strategies</h1>
                     <p>Quickly - Optimally - In One Call</p>
-                    <div class="container-banner-btn p-2 rounded-lg max-w-fit" style="background-color: #A029A3;">Get Started</div>
+                    <div class="container-banner-btn p-2 rounded-lg max-w-fit" style="background-color: #A029A3;">Get
+                        Started</div>
                 </div>
                 <div class="corosal-third-section-banner">
                     <img class="m-auto" src="Assests/Banner/banner-carosal-3.png" alt="">
                 </div>
             </div>
-            <!-- Control buttons -->
-            <button class="btn btn-next text-3xl border-4 border-white font-bold">></button>
-            <button class="btn btn-prev text-3xl border-4 border-white font-bold"><</button>
         </div>
+        <!-- Control buttons -->
+        <img class="btn btn-next" src="Assests/forward-btn.svg">
+        <img class="btn btn-prev" src="Assests/backward-btn.svg">
     </div>
 
     <!-- banner container section ends here -->
@@ -90,7 +97,8 @@
     <div class="secound-section p-5">
         <div class="container-secound-row-1 flex max-lg:flex-col">
             <div class="secound-section-col-1 max-w-lg m-auto">
-                <h1 class="text-center font-bold text-3xl leading-loose antialiased text-start font-bold text-3xl tracking-widest" style="color: #A029A3; text-shadow: 0px 1px, 1px 0px, 1px 1px;">
+                <h1 class="text-center font-bold text-3xl leading-loose antialiased text-start font-bold text-3xl tracking-widest"
+                    style="color: #A029A3; text-shadow: 0px 1px, 1px 0px, 1px 1px;">
                     Simple Connect Your Trading <br> With Powerful Algorithms</h1>
                 <img src="Assests/Secound-container/6055209-201-converted-1@2x.png" alt=""
                     class="max-lg:max-w-xs max-lg:py-5 max-lg:m-auto ">
@@ -98,28 +106,36 @@
             <div class="secound-section-col-2 grid grid-cols-2 m-auto">
                 <div class="box-1 p-3 max-w-sm max-lg:text-xs">
                     <img src="Assests/Secound-container/13500138-dec06-converted-1@2x.png" alt="">
-                    <h1 class="text-indigo-500 text-xl tracking-widest" style="color: #A029A3; font-weight:bold; text-shadow: 0px 1px, 1px 0px, 1px 1px;">Best Trading Strategy To Deploy</h1>
+                    <h1 class="text-indigo-500 text-xl tracking-widest"
+                        style="color: #A029A3; font-weight:bold; text-shadow: 0px 1px, 1px 0px, 1px 1px;">Best Trading
+                        Strategy To Deploy</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                         Hic nulla id magnam delectus vitae modi at ex voluptates enim placeat.
                         Aliquid accusantium iste quo temporibus, vel dolores expedita modi soluta.</p>
                 </div>
                 <div class="box-2 p-3 max-w-sm max-lg:text-xs">
                     <img src="Assests/Secound-container/12291073-wavy-tech21-single06-converted-1@2x.png" alt="">
-                    <h1 class="text-indigo-500 text-xl tracking-widest" style="color: #A029A3; font-weight:bold; text-shadow: 0px 1px, 1px 0px, 1px 1px;">Best Trading Strategy To Deploy</h1>
+                    <h1 class="text-indigo-500 text-xl tracking-widest"
+                        style="color: #A029A3; font-weight:bold; text-shadow: 0px 1px, 1px 0px, 1px 1px;">Best Trading
+                        Strategy To Deploy</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                         Hic nulla id magnam delectus vitae modi at ex voluptates enim placeat.
                         Aliquid accusantium iste quo temporibus, vel dolores expedita modi soluta.</p>
                 </div>
                 <div class="box-3 p-3 max-w-sm max-lg:text-xs">
                     <img src="Assests/Secound-container/13500138-dec06-converted-1@2x.png" alt="">
-                    <h1 class="text-indigo-500 text-xl tracking-widest" style="color: #A029A3; font-weight:bold; text-shadow: 0px 1px, 1px 0px, 1px 1px;">Best Trading Strategy To Deploy</h1>
+                    <h1 class="text-indigo-500 text-xl tracking-widest"
+                        style="color: #A029A3; font-weight:bold; text-shadow: 0px 1px, 1px 0px, 1px 1px;">Best Trading
+                        Strategy To Deploy</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                         Hic nulla id magnam delectus vitae modi at ex voluptates enim placeat.
                         Aliquid accusantium iste quo temporibus, vel dolores expedita modi soluta.</p>
                 </div>
                 <div class="box-3 p-3 max-w-sm max-lg:text-xs">
                     <img src="Assests/Secound-container/13500138-dec06-converted-1@2x.png" alt="">
-                    <h1 class="text-indigo-500 text-xl tracking-widest" style="color: #A029A3; font-weight:bold; text-shadow: 0px 1px, 1px 0px, 1px 1px;">Best Trading Strategy To Deploy</h1>
+                    <h1 class="text-indigo-500 text-xl tracking-widest"
+                        style="color: #A029A3; font-weight:bold; text-shadow: 0px 1px, 1px 0px, 1px 1px;">Best Trading
+                        Strategy To Deploy</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                         Hic nulla id magnam delectus vitae modi at ex voluptates enim placeat.
                         Aliquid accusantium iste quo temporibus, vel dolores expedita modi soluta.</p>
@@ -141,12 +157,32 @@
     <!-- secound container ends -->
 
     <!-- thrid container starts -->
-    <div class="container">
-        <h1 class="mx-5">Our Core Product for Traders</h1>
-        <p class="mx-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-            Maxime quam at non ut obcaecati dignissimos aliquam ullam est delectus soluta atque corrupti, 
-            tenetur odio odit asperiores et, modi aperiam perspiciatis?</p>
+    <div class="container m-auto">
+        <h1 class="mx-5 text-center text-4xl"
+            style="color: #A029A3; font-weight:bold; text-shadow: 0px 1px, 1px 0px, 1px 1px;">Our Core Product for
+            Traders</h1>
+        <p class="mx-5 text-center text-3xl max-w-6xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Maxime quam at non ut obcaecati dignissimos aliquam </p>
+
+        <!-- card carosel -->
+        <div class="card-carosal">
+            <div class="card bg-white text-black max-w-xs text-center rounded-3xl p-5">
+                <div class="card-heading">
+                    <h1 class="text-black text-2xl">Get Started</h1>
+                </div>
+                <div class="card-img">
+                    <img src="Assests/third-container/rocket-1@2x.png" class="m-auto">
+                </div>
+                <div class="card-def">
+                    <p>Lorem ipsum dolor sit amet jsdknksjv sknsom skncso</p>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+
+
     <script src="index.js"></script>
 </body>
 
