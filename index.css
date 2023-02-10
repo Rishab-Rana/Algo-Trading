@@ -5,11 +5,18 @@ body{
     transition: ease 3s;
 }
 
+.default-color{
+    color: #A029A3;  
+}
+
+.default-bg-color{
+    background-color: #A029A3;
+}
+
 /* first container */
-.container-banner{
+.corosal-first-section{
     background-image: url(/Assests/Banner/20289169-6256457-1@2x.png);
     background-size:contain;
-    z-index: 99;
 }
 
 .slider {
@@ -97,6 +104,13 @@ body{
 .box-img-over-5{
     transform: translate(750%,-320%);
 }
+
+
+/* third container */
+.categories-img{
+    width: 50%;
+}
+
 
 @media screen and (max-width:480px) {
     .box-img-over-1{
