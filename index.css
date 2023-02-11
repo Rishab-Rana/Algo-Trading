@@ -111,6 +111,30 @@ body{
     width: 50%;
 }
 
+/* 8th container */
+
+.section-8{
+    background-image: url(Assests/8th-container/6055208-200-1-converted-1@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* section 9 */
+
+.section-9{
+    background-image: url(Assests/9th-container/backImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lets-connect-form{
+    background-image: url(Assests/9th-container/form-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 99;
+}
+
+
 
 @media screen and (max-width:480px) {
     .box-img-over-1{
