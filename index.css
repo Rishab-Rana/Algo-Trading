@@ -164,7 +164,7 @@ body{
 .lets-connect-form{
     background-image: url(Assests/9th-container/form-bg-img.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     z-index: 99;
 }
 
