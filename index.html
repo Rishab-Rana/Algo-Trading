@@ -20,20 +20,28 @@
         <!-- menu logo -->
         <div class="nav-logo flex items-center">
             <img src="Assests/company-logo.png" alt="" class="w-32 max-lg:w-1/4">
-            <h1 class="text-2xl font-bold">Algo Trading Wala</h1>
+            <h1 class="text-2xl font-bold pointer"><a href="index.html">Algo Trading Wala</a></h1>
         </div>
         <!-- menu list -->
         <div class="nav-menu max-lg:hidden">
-            <ul class="flex items-center text-2xl font-bold">
+            <ul class="flex items-center text-2xl font-bold pointers">
                 <li class="mx-5"><a href="/component/marketplace.html">Marketplace</a></li>
                 <li class="mx-5">Feature</li>
                 <li class="mx-5">Ecosystem</li>
                 <li class="mx-5">PricePlan</li>
-                <li class="mx-5">Resource</li>
+                <li class="mx-5">Resource <span id="nav-menu-resource">#</span>
+                <div class="nav-menu-resource-dropdown absolute bg-white text-black rounded-xl text-sm px-8 py-2 pointer">
+                    <ul>
+                        <li class="my-1"><a href="component/Resources.html">Blogs</a></li>
+                        <li class="my-1"><a href="component/aboutus.html">About Us</a></li>
+                        <li class="my-1"><a href="component/community.html">Community</a></li>
+                    </ul>
+                </div>
+                </li>
             </ul>
         </div>
         <!-- menu sign in and log in button -->
-        <div class="nav-auth max-lg:hidden flex items-center text-2xl font-bold">
+        <div class="nav-auth max-lg:hidden flex items-center text-2xl font-bold pointer">
             <div class="nav-btn-signIn mx-2">SIGN IN</div>
             <div class="nav-btn-login p-2 rounded-lg" style="background-color: #A029A3;">LOGIN</div>
         </div>

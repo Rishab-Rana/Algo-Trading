@@ -26,37 +26,44 @@
     <div class="nav flex p-5 bg-transparent justify-around text-white max-lg:p-0">
         <!-- menu logo -->
         <div class="nav-logo flex items-center">
-            <img src="Assests/company-logo.png" alt="" class="w-32">
-            <h1 class="text-2xl font-bold">Algo Trading Wala</h1>
+            <img src="Assests/company-logo.png" alt="" class="w-32 max-lg:w-1/4">
+            <h1 class="text-2xl font-bold pointer"><a href="index.html">Algo Trading Wala</a></h1>
         </div>
         <!-- menu list -->
         <div class="nav-menu max-lg:hidden">
-            <ul class="flex items-center text-2xl font-bold">
+            <ul class="flex items-center text-2xl font-bold pointers">
                 <li class="mx-5"><a href="/component/marketplace.html">Marketplace</a></li>
                 <li class="mx-5">Feature</li>
                 <li class="mx-5">Ecosystem</li>
                 <li class="mx-5">PricePlan</li>
-                <li class="mx-5">Resource</li>
+                <li class="mx-5">Resource <span id="nav-menu-resource">#</span>
+                <div class="nav-menu-resource-dropdown absolute bg-white text-black rounded-xl text-sm px-8 py-2 pointer">
+                    <ul>
+                        <li class="my-1"><a href="component/Resources.html">Blogs</a></li>
+                        <li class="my-1"><a href="component/aboutus.html">About Us</a></li>
+                        <li class="my-1"><a href="component/community.html">Community</a></li>
+                    </ul>
+                </div>
+                </li>
             </ul>
         </div>
         <!-- menu sign in and log in button -->
-        <div class="nav-auth max-lg:hidden flex items-center text-2xl font-bold">
+        <div class="nav-auth max-lg:hidden flex items-center text-2xl font-bold pointer">
             <div class="nav-btn-signIn mx-2">SIGN IN</div>
             <div class="nav-btn-login p-2 rounded-lg" style="background-color: #A029A3;">LOGIN</div>
         </div>
     </div>
     <!-- navigation bar section ends -->
 
-    <div class="resource-first-section bg-contain bg-no-repeat">
+    <div class="resource-first-section bg-contain bg-no-repeat max-lg:bg-cover max-lg:my-5 max-lg:p-8">
         <div class="container m-auto text-center h-screen max-lg:h-auto">
-            <h1 class="text-6xl font-bold py-20 relative max-lg:py-0">
+            <h1 class="text-6xl font-bold py-20 relative max-lg:py-0 max-lg:text-lg ">
                 Blogs
             </h1>
             <p class=" text-3xl font-bold max-lg:text-xs">
                 blog, short for wieblod, is a frequently updated web page used for personal ommentary or business
                 content. Blogs are often interactive and include sectiens al bottom of individual blog posts where
                 readers can leave comments.
-                <br>
                 Tempor lorem diam curabitur ac in nec, elementum arcu. Risus habitasse in aliquet mattis augue augue
                 ornare in. Orci eu
                 maecenas purus diam, sapien facilisis. Nunc tincidunt urna amet, et, in turpis sagittis, tristique
@@ -67,24 +74,31 @@
         </div>
     </div>
 
-    <div class="resource-secound-section">
-        <h1>
+    <div class="resource-secound-section container m-auto -my-8 max-lg:my-0 max-lg:px-8">
+        <h1 class="default-color text-center text-2xl font-bold my-5">
             Adipiscing lacus dui rutrum quam. In morbi facilisis elit.
         </h1>
-        <p>
+        <p class="font-bold my-5">
             Tincidunt et amet suspendisse venenatis neque ultricies eget. Aliquam duis amet amet lobortis. Elit risus
             ultrices gravida fringilla
             id odio tortor, vitae. In pretium purus ac potenti pretium ultrices. Aliquam velit scelerisque auctor in
             libero amet. Commodo
             faucibus consequat, dolor fringilla volutpat sed nibh. Amet, sit ut id eget. Egestas hendrerit.
         </p>
-        <img src="/Assests/blog-Page/2nd-banner.png" alt="" class="w-3/4 container m-auto">
+        <p class="font-bold my-5">
+            Tincidunt et amet suspendisse venenatis neque ultricies eget. Aliquam duis amet amet lobortis. Elit risus
+            ultrices gravida fringilla
+            id odio tortor, vitae. In pretium purus ac potenti pretium ultrices. Aliquam velit scelerisque auctor in
+            libero amet. Commodo
+            faucibus consequat, dolor fringilla volutpat sed nibh. Amet, sit ut id eget. Egestas hendrerit.
+        </p>
+        <img src="/Assests/blog-Page/2nd-banner.png" alt="" class="w-full container m-auto">
     </div>
 
-    <div class="resource-third-section container m-auto">
-        <h1>From the Blog</h1>
-        <div class="grid grid-cols-3">
-            <div class="resource-blog-card w-3/4 bg-white text-black rounded-xl my-5">
+    <div class="resource-third-section container m-auto mt-8 pt-8">
+        <h1  class="text-center default-color text-4xl font-bold">From the Blog</h1>
+        <div class="grid grid-cols-3 max-lg:grid-cols-1">
+            <div class="resource-blog-card w-3/4 bg-white text-black rounded-xl my-5 m-auto">
                 <img src="/Assests/blog-Page/first-box.png" alt="" class="rounded-xl relative">
                 <h1 class="font-bold text-sm px-2">Porttitor pharetra, consectetur viverra est nisl a, vulputate id.
                 </h1>
@@ -93,7 +107,7 @@
                     <p>Technolgy</p>
                 </div>
             </div>
-            <div class="resource-blog-card w-3/4 bg-white text-black rounded-xl my-5">
+            <div class="resource-blog-card w-3/4 bg-white text-black rounded-xl my-5 m-auto">
                 <img src="/Assests/blog-Page/secound-box.png" alt="" class="rounded-xl relative">
                 <h1 class="font-bold text-sm px-2">Diam amet non placerat risus magna non volutpat.</h1>
                 <div class="resource-blog-card-def flex justify-between text-xs p-2">
@@ -101,7 +115,7 @@
                     <p>Technolgy</p>
                 </div>
             </div>
-            <div class="resource-blog-card w-3/4 bg-white text-black rounded-xl my-5">
+            <div class="resource-blog-card w-3/4 bg-white text-black rounded-xl my-5 m-auto">
                 <img src="/Assests/blog-Page/third-box.png" alt="" class="rounded-xl relative">
                 <h1 class="font-bold text-sm px-2">Volutpat volutpat turpis risus nunc in nisl habitasse leo. Duis.</h1>
                 <div class="resource-blog-card-def flex justify-between text-xs p-2">
@@ -110,7 +124,7 @@
                 </div>
             </div>
 
-            <div class="resource-blog-card bg-white w-3/4 text-black rounded-xl flex">
+            <div class="resource-blog-card bg-white w-3/4 text-black rounded-xl flex m-auto my-2">
                 <img src="/Assests/blog-Page/forth-box.png" alt="" class="w-1/4">
                 <div class="right m-auto">
                     <h1 class="font-bold text-sm px-2">Volutpat volutpat turpis risus nunc in nisl habitasse leo. Duis.
@@ -121,7 +135,7 @@
                     </div>
                 </div>
             </div>
-            <div class="resource-blog-card bg-white w-3/4 text-black rounded-xl flex">
+            <div class="resource-blog-card bg-white w-3/4 text-black rounded-xl flex m-auto my-2">
                 <img src="/Assests/blog-Page/fith-box.png" alt="" class="w-1/4">
                 <div class="right m-auto">
                     <h1 class="font-bold text-sm px-2">Volutpat volutpat turpis risus nunc in nisl habitasse leo. Duis.
@@ -132,7 +146,7 @@
                     </div>
                 </div>
             </div>
-            <div class="resource-blog-card bg-white w-3/4 text-black rounded-xl flex">
+            <div class="resource-blog-card bg-white w-3/4 text-black rounded-xl flex m-auto my-2">
                 <img src="/Assests/blog-Page/sixth-box.png" alt="" class="w-1/4">
                 <div class="right m-auto">
                     <h1 class="font-bold text-sm px-2">Volutpat volutpat turpis risus nunc in nisl habitasse leo. Duis.

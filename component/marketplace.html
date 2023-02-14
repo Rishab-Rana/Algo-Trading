@@ -15,21 +15,29 @@
     <div class="nav flex p-5 bg-transparent justify-around text-white max-lg:p-0">
         <!-- menu logo -->
         <div class="nav-logo flex items-center">
-            <img src="Assests/company-logo.png" alt="" class="w-32">
-            <h1 class="text-2xl font-bold"><a href="/index.html">Algo Trading Wala</a></h1>
+            <img src="Assests/company-logo.png" alt="" class="w-32 max-lg:w-1/4">
+            <h1 class="text-2xl font-bold pointer"><a href="index.html">Algo Trading Wala</a></h1>
         </div>
         <!-- menu list -->
         <div class="nav-menu max-lg:hidden">
-            <ul class="flex items-center text-2xl font-bold">
+            <ul class="flex items-center text-2xl font-bold pointers">
                 <li class="mx-5"><a href="/component/marketplace.html">Marketplace</a></li>
                 <li class="mx-5">Feature</li>
                 <li class="mx-5">Ecosystem</li>
                 <li class="mx-5">PricePlan</li>
-                <li class="mx-5">Resource</li>
+                <li class="mx-5">Resource <span id="nav-menu-resource">#</span>
+                <div class="nav-menu-resource-dropdown absolute bg-white text-black rounded-xl text-sm px-8 py-2 pointer">
+                    <ul>
+                        <li class="my-1"><a href="component/Resources.html">Blogs</a></li>
+                        <li class="my-1"><a href="component/aboutus.html">About Us</a></li>
+                        <li class="my-1"><a href="component/community.html">Community</a></li>
+                    </ul>
+                </div>
+                </li>
             </ul>
         </div>
         <!-- menu sign in and log in button -->
-        <div class="nav-auth max-lg:hidden flex items-center text-2xl font-bold">
+        <div class="nav-auth max-lg:hidden flex items-center text-2xl font-bold pointer">
             <div class="nav-btn-signIn mx-2">SIGN IN</div>
             <div class="nav-btn-login p-2 rounded-lg" style="background-color: #A029A3;">LOGIN</div>
         </div>
@@ -91,8 +99,8 @@
     <!-- Strategy Section -->
 
     <div class="Strategy-section container m-auto">
-        <div class="grid grid-cols-3">
-            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl m-5">
+        <div class="grid grid-cols-3 max-lg:grid-cols-1">
+            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl m-auto my-5">
                 <div
                     class="strategy-section-card-1-heading flex items-center m-auto my-5 rounded-xl px-2 bg-black text-white max-w-fit">
                     <h1 class="p-5 font-bold">NIFTY</h1>
@@ -104,7 +112,7 @@
                 <div class="execute-btn bg-black text-white w-2/4 py-4 rounded-xl font-bold text-2xl m-auto my-5">
                     Execute</div>
             </div>
-            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl m-5">
+            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl  m-auto my-5">
                 <div
                     class="strategy-section-card-1-heading flex items-center m-auto my-5 rounded-xl px-2 bg-black text-white max-w-fit">
                     <h1 class="p-5 font-bold">NIFTY</h1>
@@ -116,7 +124,7 @@
                 <div class="execute-btn bg-black text-white w-2/4 py-4 rounded-xl font-bold text-2xl m-auto my-5">
                     Execute</div>
             </div>
-            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl m-5">
+            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl  m-auto my-5">
                 <div
                     class="strategy-section-card-1-heading flex items-center m-auto my-5 rounded-xl px-2 bg-black text-white max-w-fit">
                     <h1 class="p-5 font-bold">NIFTY</h1>
@@ -128,7 +136,7 @@
                 <div class="execute-btn bg-black text-white w-2/4 py-4 rounded-xl font-bold text-2xl m-auto my-5">
                     Execute</div>
             </div>
-            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl m-5">
+            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl  m-auto my-5">
                 <div
                     class="strategy-section-card-1-heading flex items-center m-auto my-5 rounded-xl px-2 bg-black text-white max-w-fit">
                     <h1 class="p-5 font-bold">NIFTY</h1>
@@ -140,7 +148,7 @@
                 <div class="execute-btn bg-black text-white w-2/4 py-4 rounded-xl font-bold text-2xl m-auto my-5">
                     Execute</div>
             </div>
-            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl m-5">
+            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl  m-auto my-5">
                 <div
                     class="strategy-section-card-1-heading flex items-center m-auto my-5 rounded-xl px-2 bg-black text-white max-w-fit">
                     <h1 class="p-5 font-bold">NIFTY</h1>
@@ -152,7 +160,7 @@
                 <div class="execute-btn bg-black text-white w-2/4 py-4 rounded-xl font-bold text-2xl m-auto my-5">
                     Execute</div>
             </div>
-            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl m-5">
+            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl  m-auto my-5">
                 <div
                     class="strategy-section-card-1-heading flex items-center m-auto my-5 rounded-xl px-2 bg-black text-white max-w-fit">
                     <h1 class="p-5 font-bold">NIFTY</h1>
@@ -164,7 +172,7 @@
                 <div class="execute-btn bg-black text-white w-2/4 py-4 rounded-xl font-bold text-2xl m-auto my-5">
                     Execute</div>
             </div>
-            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl m-5">
+            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl  m-auto my-5">
                 <div
                     class="strategy-section-card-1-heading flex items-center m-auto my-5 rounded-xl px-2 bg-black text-white max-w-fit">
                     <h1 class="p-5 font-bold">NIFTY</h1>
@@ -176,7 +184,7 @@
                 <div class="execute-btn bg-black text-white w-2/4 py-4 rounded-xl font-bold text-2xl m-auto my-5">
                     Execute</div>
             </div>
-            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl m-5">
+            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl  m-auto my-5">
                 <div
                     class="strategy-section-card-1-heading flex items-center m-auto my-5 rounded-xl px-2 bg-black text-white max-w-fit">
                     <h1 class="p-5 font-bold">NIFTY</h1>
@@ -188,7 +196,7 @@
                 <div class="execute-btn bg-black text-white w-2/4 py-4 rounded-xl font-bold text-2xl m-auto my-5">
                     Execute</div>
             </div>
-            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl m-5">
+            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl  m-auto my-5">
                 <div
                     class="strategy-section-card-1-heading flex items-center m-auto my-5 rounded-xl px-2 bg-black text-white max-w-fit">
                     <h1 class="p-5 font-bold">NIFTY</h1>
@@ -200,7 +208,7 @@
                 <div class="execute-btn bg-black text-white w-2/4 py-4 rounded-xl font-bold text-2xl m-auto my-5">
                     Execute</div>
             </div>
-            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl m-5">
+            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl m-auto my-5">
                 <div
                     class="strategy-section-card-1-heading flex items-center m-auto my-5 rounded-xl px-2 bg-black text-white max-w-fit">
                     <h1 class="p-5 font-bold">NIFTY</h1>
@@ -212,7 +220,7 @@
                 <div class="execute-btn bg-black text-white w-2/4 py-4 rounded-xl font-bold text-2xl m-auto my-5">
                     Execute</div>
             </div>
-            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl m-5">
+            <div class="strategy-section-card-1 text-center w-3/4 bg-white text-black rounded-xl  m-auto my-5">
                 <div
                     class="strategy-section-card-1-heading flex items-center m-auto my-5 rounded-xl px-2 bg-black text-white max-w-fit">
                     <h1 class="p-5 font-bold">NIFTY</h1>
@@ -234,8 +242,8 @@
     <div class="container m-auto my-8">
         <h1 class="default-color text-5xl text-center font-bold">Indicatior</h1>
 
-        <div class="grid grid-cols-3">
-            <div class="section-7-right my-4 w-3/4">
+        <div class="grid grid-cols-3 max-lg:grid-cols-1">
+            <div class="section-7-right my-4 w-3/4 m-auto">
                 <div class="section-7-card bg-white text-black rounded-3xl text-center">
                     <img src="/Assests/seventh-container/scraping & signal.png" alt="">
                     <h1 class="text-2xl font-black m-2 max-lg:text-sm">AWT Super</h1>
@@ -245,7 +253,7 @@
                         specific range with other conformation.</P>
                 </div>
             </div>
-            <div class="section-7-right my-4 w-3/4">
+            <div class="section-7-right my-4 w-3/4 m-auto">
                 <div class="section-7-card bg-white text-black rounded-3xl text-center">
                     <img src="/Assests/seventh-container/scraping & signal.png" alt="">
                     <h1 class="text-2xl font-black m-2 max-lg:text-sm">AWT Super</h1>
@@ -255,7 +263,7 @@
                         specific range with other conformation.</P>
                 </div>
             </div>
-            <div class="section-7-right my-4 w-3/4">
+            <div class="section-7-right my-4 w-3/4 m-auto">
                 <div class="section-7-card bg-white text-black rounded-3xl text-center">
                     <img src="/Assests/seventh-container/scraping & signal.png" alt="">
                     <h1 class="text-2xl font-black m-2 max-lg:text-sm">AWT Super</h1>
@@ -265,7 +273,7 @@
                         specific range with other conformation.</P>
                 </div>
             </div>
-            <div class="section-7-right my-4 w-3/4">
+            <div class="section-7-right my-4 w-3/4 m-auto">
                 <div class="section-7-card bg-white text-black rounded-3xl text-center">
                     <img src="/Assests/seventh-container/scraping & signal.png" alt="">
                     <h1 class="text-2xl font-black m-2 max-lg:text-sm">AWT Super</h1>
@@ -275,7 +283,7 @@
                         specific range with other conformation.</P>
                 </div>
             </div>
-            <div class="section-7-right my-4 w-3/4">
+            <div class="section-7-right my-4 w-3/4 m-auto">
                 <div class="section-7-card bg-white text-black rounded-3xl text-center">
                     <img src="/Assests/seventh-container/scraping & signal.png" alt="">
                     <h1 class="text-2xl font-black m-2 max-lg:text-sm">AWT Super</h1>
@@ -285,7 +293,7 @@
                         specific range with other conformation.</P>
                 </div>
             </div>
-            <div class="section-7-right my-4 w-3/4">
+            <div class="section-7-right my-4 w-3/4 m-auto">
                 <div class="section-7-card bg-white text-black rounded-3xl text-center">
                     <img src="/Assests/seventh-container/scraping & signal.png" alt="">
                     <h1 class="text-2xl font-black m-2 max-lg:text-sm">AWT Super</h1>
